@@ -11,7 +11,7 @@ fn main() {
     // Define command-line arguments using clap
     let matches = Command::new("dupehunter")
         .version("0.1.0")
-        .author("Your Name <you@example.com>")
+        .author("l <r@tehe.com>")
         .about("Finds and manages duplicate files in directories")
         .arg(
             Arg::new("recursive")
