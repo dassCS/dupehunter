@@ -1,0 +1,11 @@
+[package]
+name = "dupehunter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.19", features = ["derive"] }
+walkdir = "2.5.0"
+sha2 = "0.10.6"
+hex = "0.4.3"
+dialoguer = "0.10.3"
